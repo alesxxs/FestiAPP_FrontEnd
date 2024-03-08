@@ -1,0 +1,68 @@
+.dashboardContainer {
+  width: 80%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.806);
+  border-radius: 27px;
+  box-shadow: 0px 0px 52px 6px white;
+  color: rgb(246, 242, 242);
+}
+
+.dashTitleContainer {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashTitleContainer span {
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.secondSpan {
+    margin-left: 1.5rem;
+}
+
+.secondSpanDate {
+    margin-left: 2.8rem;
+}
+
+.secondSpanCountry {
+    margin-left: 3.7rem;
+}
+
+.eventsContainer {
+  display: grid;
+  justify-content: center;
+  height: 25rem;
+  overflow-y: auto;
+}
+
+.imageContainer img {
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.containerAllEvents {
+  width: 55rem;
+    margin-top: 2rem;
+  background-color: rgba(0, 0, 0, 0.162);
+  display: flex;
+  color: rgb(246, 242, 242);
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 9px rgba(207, 207, 207, 0.331);
+  cursor: pointer;
+  margin-bottom: 3rem;
+}
+
+.infoContainer {
+  padding: 15px;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.dateContainer,
+.countryContainer {
+  margin-top: 1.5rem;
+}

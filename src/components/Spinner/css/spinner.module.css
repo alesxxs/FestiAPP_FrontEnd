@@ -1,0 +1,13 @@
+.spinnerGeneral {
+    margin: 0; 
+  padding: 0; 
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinnerGeneral div {
+    width: 5rem;
+    height: 5rem;
+}

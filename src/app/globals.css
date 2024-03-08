@@ -1,0 +1,23 @@
+body {
+  margin: 0; 
+  padding: 0; 
+  height: 100vh; 
+  background-image: url('../../public/img/background.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+
+.background-container {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.background-container.show {
+  opacity: 1;
+}
+
+.spinnerGeneral {
+  border: 5px solid red !important;
+}
